@@ -1,11 +1,14 @@
+"use strict";
 // Write a Program to add Two Numbers
+Object.defineProperty(exports, "__esModule", { value: true });
 // @ts-ignore
-var addition = function (a, b) {
-    var c = a + b;
+const addition = (a, b) => {
+    let c = a + b;
     return c;
 };
 // @ts-ignore
-var a = 10;
+let a = 10;
 // @ts-ignore
-var b = "Vijaysinh";
+let b = "Vijaysinh";
 console.log("addition of Two numbers is => ", addition(a, b));
+//# sourceMappingURL=index.js.map

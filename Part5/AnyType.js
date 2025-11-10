@@ -1,9 +1,11 @@
-var NUM = 5;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let NUM = 5;
 console.log(NUM);
 NUM = true;
 console.log(NUM);
 // Unkown Type
-var data;
+let data;
 data = 10;
 console.log(data);
 data = "Hellow";
@@ -13,3 +15,4 @@ console.log(data);
 if (typeof data === "boolean") {
     console.log(data);
 }
+//# sourceMappingURL=AnyType.js.map

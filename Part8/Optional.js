@@ -1,15 +1,16 @@
+"use strict";
 // Optional Parameter
-var greet = function (str) {
-    console.log("Hellow ".concat(str || "Brother"));
+Object.defineProperty(exports, "__esModule", { value: true });
+const greet = (str) => {
+    console.log(`Hellow ${str || "Brother"}`);
 };
 greet("Brother");
 greet();
 // Default Parameter
-var addition = function (a, b) {
-    if (a === void 0) { a = 10; }
-    if (b === void 0) { b = 20; }
-    var c = a + b;
+const addition = (a = 10, b = 20) => {
+    let c = a + b;
     console.log("Addition => ", c);
 };
 addition();
 addition(50, 50);
+//# sourceMappingURL=Optional.js.map
